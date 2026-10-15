@@ -19,35 +19,35 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
-category: info
+title: "Deprecating Expanded ML-DSA Private Key Encodings"
+abbrev: "Deprecating Expanded ML-DSA Private Key Encodings"
+category: std
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-rosomakho-lamps-mldsa-seed-only-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: Security
+workgroup: LAMPS
 keyword:
- - next generation
- - unicorn
- - AI-native
+ - mldsa
+ - expanded
+ - deprecate
 venue:
-  group: WG
+  group: LAMPS
   type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  mail: spasm@ietf.org
+  arch: https://mailarchive.ietf.org/arch/browse/spasm/
+  github: yaroslavros/lamps-mldsa-deprecate-key
+  latest: https://yaroslavros.github.io/lamps-mldsa-deprecate-key/draft-rosomakho-lamps-mldsa-seed-only.html
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: Yaroslav Rosomakho
+    organization: Zscaler
+    email: yrosomakho@zscaler.com
 
 normative:
 
