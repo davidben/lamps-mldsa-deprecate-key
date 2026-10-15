@@ -38,9 +38,9 @@ informative:
 
 --- abstract
 
-This document updates RFC 9881 to require the seed representation when
+This document updates RFC 9881 to require the `seed` representation when
 encoding Module-Lattice-Based Digital Signature Algorithm (ML-DSA) private
-keys for interchange. It deprecates the expandedKey and both
+keys for interchange. It deprecates the `expandedKey` and `both`
 representations, while permitting their continued support for legacy
 imports. These changes simplify implementation and improve
 interoperability by aligning the private-key representation with that
@@ -74,9 +74,9 @@ Encryption (COSE). Using the seed representation consistently across these
 specifications simplifies private-key interchange and avoids the need to
 support multiple representations and their associated validation logic.
 
-This document updates {{X509-MLDSA}} to require the seed representation when
-encoding ML-DSA private keys for interchange and deprecates the expandedKey
-and both representations. Support for importing the deprecated
+This document updates {{X509-MLDSA}} to require the `seed` representation when
+encoding ML-DSA private keys for interchange and deprecates the `expandedKey`
+and `both` representations. Support for importing the deprecated
 representations remains optional for legacy compatibility. This document
 does not restrict internal private-key representations or change public
 keys, signatures, or their encodings.
@@ -95,29 +95,29 @@ This section updates the private-key encoding requirements in
 and ML-DSA-87.
 
 Implementations that encode or decode ML-DSA private keys for interchange
-using the structures defined in {{X509-MLDSA}} MUST support the seed
+using the structures defined in {{X509-MLDSA}} MUST support the `seed`
 representation. When encoding such a private key, implementations MUST
-use the seed alternative and MUST NOT use the expandedKey or both
+use the `seed` alternative and MUST NOT use the `expandedKey` or `both`
 alternatives. This requirement replaces the permission to encode any of
 the three alternatives in {{Section 6 of X509-MLDSA}} and
 {{Section 8.1 of X509-MLDSA}}.
 
-The seed encoding remains unchanged: the privateKey field of
+The `seed` encoding remains unchanged: the `privateKey` field of
 OneAsymmetricKey contains the DER encoding of the implicitly tagged
-seed alternative, consisting of the octets 0x80 and 0x20 followed by the
+`seed` alternative, consisting of the octets 0x80 and 0x20 followed by the
 32-octet seed. The algorithm identifiers and the requirement that their
 parameters be absent remain unchanged. No new ASN.1 types or algorithm
 identifiers are defined.
 
-The expandedKey and both alternatives are deprecated. Implementations
+The `expandedKey` and `both` alternatives are deprecated. Implementations
 MAY support decoding these alternatives for legacy compatibility, but
 such support is not required for conformance to this specification.
 
 
 # Compatibility and Migration Considerations {#migration}
 
-Existing private keys can be re-encoded in the seed representation when
-the original seed is available, including from the both representation.
+Existing private keys can be re-encoded in the `seed` representation when
+the original seed is available, including from the `both` representation.
 This conversion does not require replacing the key pair or reissuing
 certificates. Operators should ensure that seeds are retained for keys
 that may need to be exported or restored into another implementation.
