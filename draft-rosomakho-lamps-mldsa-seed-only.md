@@ -9,19 +9,19 @@ number:
 date:
 consensus: true
 v: 3
-area: Security
-workgroup: LAMPS
+area: "Security"
+workgroup: "Limited Additional Mechanisms for PKIX and SMIME"
 keyword:
  - mldsa
  - expanded
  - deprecate
 venue:
-  group: LAMPS
-  type: Working Group
-  mail: spasm@ietf.org
-  arch: https://mailarchive.ietf.org/arch/browse/spasm/
-  github: yaroslavros/lamps-mldsa-deprecate-key
-  latest: https://yaroslavros.github.io/lamps-mldsa-deprecate-key/draft-rosomakho-lamps-mldsa-seed-only.html
+  group: "Limited Additional Mechanisms for PKIX and SMIME"
+  type: "Working Group"
+  mail: "spasm@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/spasm/"
+  github: "yaroslavros/lamps-mldsa-deprecate-key"
+  latest: "https://yaroslavros.github.io/lamps-mldsa-deprecate-key/draft-rosomakho-lamps-mldsa-seed-only.html"
 
 author:
  -
