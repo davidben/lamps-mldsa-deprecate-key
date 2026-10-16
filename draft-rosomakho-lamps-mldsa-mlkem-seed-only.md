@@ -4,7 +4,7 @@ abbrev: "Deprecating Expanded ML-DSA and ML-KEM Private Key Encodings"
 category: std
 updates: 9881, 9935
 
-docname: draft-rosomakho-lamps-mldsa-seed-only-latest
+docname: draft-rosomakho-lamps-mldsa-mlkem-seed-only-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
@@ -14,6 +14,7 @@ area: "Security"
 workgroup: "Limited Additional Mechanisms for PKIX and SMIME"
 keyword:
  - mldsa
+ - milked
  - expanded
  - deprecate
 venue:
@@ -22,7 +23,7 @@ venue:
   mail: "spasm@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/spasm/"
   github: "yaroslavros/lamps-mldsa-deprecate-key"
-  latest: "https://yaroslavros.github.io/lamps-mldsa-deprecate-key/draft-rosomakho-lamps-mldsa-seed-only.html"
+  latest: "https://yaroslavros.github.io/lamps-mldsa-deprecate-key/draft-rosomakho-lamps-mldsa-mlkem-seed-only.html"
 
 author:
  -
