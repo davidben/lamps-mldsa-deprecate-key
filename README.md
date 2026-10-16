@@ -4,10 +4,10 @@
 
 This is the working area for the individual Internet-Draft, "Deprecating Expanded ML-DSA Private Key Encodings".
 
-* [Editor's Copy](https://yaroslavros.github.io/lamps-mldsa-deprecate-key/#go.draft-rosomakho-lamps-mldsa-seed-only.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-rosomakho-lamps-mldsa-seed-only)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-rosomakho-lamps-mldsa-seed-only)
-* [Compare Editor's Copy to Individual Draft](https://yaroslavros.github.io/lamps-mldsa-deprecate-key/#go.draft-rosomakho-lamps-mldsa-seed-only.diff)
+* [Editor's Copy](https://yaroslavros.github.io/lamps-mldsa-deprecate-key/#go.draft-rosomakho-lamps-mldsa-mlkem-seed-only.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-rosomakho-lamps-mldsa-mlkem-seed-only)
+* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-rosomakho-lamps-mldsa-mlkem-seed-only)
+* [Compare Editor's Copy to Individual Draft](https://yaroslavros.github.io/lamps-mldsa-deprecate-key/#go.draft-rosomakho-lamps-mldsa-mlkem-seed-only.diff)
 
 
 ## Contributing
