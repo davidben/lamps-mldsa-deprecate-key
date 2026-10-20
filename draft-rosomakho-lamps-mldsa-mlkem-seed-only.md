@@ -142,7 +142,8 @@ other public-key bindings.
 
 However, such existing keys MAY continue to be used by implementations that
 support this representation. This document still optionally permits the
-`expandedKey` encoding for such cases.
+`expandedKey` encoding for such cases. It also places no constraints on keys
+that are never exported for interchange.
 
 
 # Security Considerations {#security}
